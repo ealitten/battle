@@ -16,7 +16,7 @@ end
 feature 'Attacking Player 2' do
   scenario 'Player 1 clicks: Attack & gets confirmation' do
     sign_in_and_play
-    click_button('Attack!')
+    click_button('p1_attack_p2')
     expect(page).to have_text("Ed attacks Agata!")
   end
 

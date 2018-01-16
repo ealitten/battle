@@ -1,9 +1,9 @@
-<h1> Player names: </h1>
+<h1> Battle in progress: </h1>
 
 <p> Player 1: <%= @player_1 %> </p>
 
 <form action="/attack" >
-  <input type="submit" value="Attack!">
+  <input type="submit" id='p1_attack_p2' value="Attack <%= @player_2 %>!">
 </form>
 
 <p> Player 2: <%= @player_2 %> </p>
