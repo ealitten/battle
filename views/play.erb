@@ -1,10 +1,10 @@
 <h1> Battle in progress: </h1>
 
-<p> Player 1: <%= @player_1 %> </p>
+<p> Player 1: <%= @player_1.name %> </p>
 
 <form action="/attack" >
-  <input type="submit" id='p1_attack_p2' value="Attack <%= @player_2 %>!">
+  <input type="submit" id='p1_attack_p2' value="Attack <%= @player_2.name %>!">
 </form>
 
-<p> Player 2: <%= @player_2 %> </p>
+<p> Player 2: <%= @player_2.name %> </p>
 <p> Player 2 HP: 100 </p>
