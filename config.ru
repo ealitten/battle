@@ -1,4 +1,4 @@
 require 'rubygems'
-require './lib/app.rb'
+require './app.rb'
 
 run Battle
